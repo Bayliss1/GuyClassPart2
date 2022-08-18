@@ -40,7 +40,7 @@ namespace GuyClassPart2
         /// Receive some cash, adding it to my wallet (or printing a message to the console if the amount is invalid).
         /// </summary>
         /// <param name="amount">Amount of cash to give.</param>
-        public void ReceiveCash(int amount)
+        /*public void ReceiveCash(int amount)
         {
             if (amount <= 0)
             {
@@ -51,5 +51,6 @@ namespace GuyClassPart2
                 Cash += amount;
             }
         }
+        */
     }
 }
